@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    background-color: #081b31;
+    height: 5rem;
+    color: #fff;
+    line-height: 5rem;
+}
+
+.choices{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.choice{
+    height: 110px;
+    width: 110px;
+    transition: all 0.1s ease;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.choice:hover{
+    background-color: #081b31;
+}
+
+img{
+    height: 100px;
+    width: 100px;    
+    border-radius: 50%;
+    object-fit: cover;
+}
